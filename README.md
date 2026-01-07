@@ -1,4 +1,4 @@
-# 📉 ConvertEUR
+# ConvertEUR
 
 **ConvertEUR** is a single-page web application that converts arbitrary currency amounts to **EUR over time**, using **historical exchange rates** and optional **inflation adjustment** to reflect real purchasing power.
 
