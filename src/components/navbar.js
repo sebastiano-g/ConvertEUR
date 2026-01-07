@@ -6,6 +6,7 @@ export default function navbar() {
       { label: 'Chart', href: '#tracker' },
       { label: 'About', href: '#about' }
     ],
+    open: false, // responsive menu
 
     // light or dark theme
     toggleTheme() {
@@ -29,7 +30,16 @@ export default function navbar() {
         top: 0,
         behavior: 'smooth'
       })
-    }
+    },
+
+    // responsive menu
+    toggleMenu() {
+      this.open = !this.open
+    },
+
+    closeMenu() {
+      this.open = false
+    },
 
   }
 }
